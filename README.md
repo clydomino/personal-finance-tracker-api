@@ -1,17 +1,17 @@
-📌 Personal Finance Tracker API
+**📌 Personal Finance Tracker API
+**
+<br><br>
 
-
-
-Overview
+**Overview**
 
 A backend-focused REST API for tracking personal financial data, designed to reflect real-world production practices: secure authentication, clean API contracts, test automation, and cloud readiness.
 
 The project is intentionally built using vertical slices to deliver end-to-end functionality incrementally, rather than isolated layers.
 
+<br><br>
 
-
-🎯 Goals
-
+**🎯 Goals
+**
 - Design a secure, API-first backend
 
 - Practice authentication, authorization, and data isolation
@@ -22,10 +22,10 @@ The project is intentionally built using vertical slices to deliver end-to-end f
 
 - Simulate real-world integration and analytics use cases
 
-  
+<br><br>
 
-🧱 Architecture & Approach
-
+**🧱 Architecture & Approach
+**
 - RESTful API following clean separation of concerns
 
 - Vertical slice architecture (feature-based, end-to-end)
@@ -36,10 +36,10 @@ The project is intentionally built using vertical slices to deliver end-to-end f
 
 - Strong emphasis on testability and maintainability
   
+<br><br>
 
-
-🔐 Core Features
-
+**🔐 Core Features
+**
 - User Management (Sprint 1)
    * User registration & authentication
    * JWT-based access control
@@ -58,10 +58,10 @@ The project is intentionally built using vertical slices to deliver end-to-end f
    * CSV import/export
    * External system integration (API-based)
      
+<br><br>
 
-
-🧪 Testing Strategy
-
+**🧪 Testing Strategy
+**
 - Unit tests for business logic and validation
 
 - Integration tests for API endpoints and data flow
@@ -70,10 +70,10 @@ The project is intentionally built using vertical slices to deliver end-to-end f
 
 - Authentication and authorization tested explicitly
 
-  
+<br><br>  
 
-☁️ Cloud & DevOps Readiness
-
+**☁️ Cloud & DevOps Readiness
+**
 - Designed with Azure fundamentals in mind
 
 - Environment-based configuration
@@ -82,10 +82,10 @@ The project is intentionally built using vertical slices to deliver end-to-end f
 
 -  Prepared for deployment on Azure App Service
 
-  
+<br><br>  
 
-📄 API Documentation
-
+**📄 API Documentation
+**
 - OpenAPI / Swagger UI available
 
 - Clear request/response contracts
@@ -94,8 +94,8 @@ The project is intentionally built using vertical slices to deliver end-to-end f
 
 
 
-🚀 Why This Project
-
+**🚀 Why This Project
+**
 This project is built to demonstrate:
 
 - Backend and API design skills
