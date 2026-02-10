@@ -5,3 +5,7 @@
 - Elaborated the functional requirements (User stories) for User Management - (**by Clyde**)
   
 - Established first vertical slice goal (Deliver a working authentication flow with secure access) - (**by Clyde**)
+
+- Created the Visual Studio .NET solution and related projects - (**by Clyde**)
+
+- Commited first piece of code - (**by Clyde**)
