@@ -9,3 +9,5 @@
 - Created the Visual Studio .NET solution and related projects - (**by Clyde**)
 
 - Commited first piece of code - (**by Clyde**)
+
+- Created User Entity and User Repository Interface - (**by Clyde**)
