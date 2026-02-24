@@ -10,4 +10,10 @@
 
 - Commited first piece of code - (**by Clyde**)
 
+- Created User Entity - (**by Clyde**)
+
+- Created and committed first version of UserRepository - (**by Clyde**)
+
+- Added CreateUserCommand, CreateUserHandler, CreateUserResult - (**by Clyde**)
+
 - Created User Entity and User Repository Interface - (**by Clyde**)
