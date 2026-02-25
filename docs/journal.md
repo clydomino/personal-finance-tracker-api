@@ -17,3 +17,5 @@
 - Added CreateUserCommand, CreateUserHandler, CreateUserResult - (**by Clyde**)
 
 - Created User Entity and User Repository Interface - (**by Clyde**)
+
+- Created The Database/DB Context - (**by Clyde**)
