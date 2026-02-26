@@ -12,6 +12,6 @@ namespace FinanceTracker.Infrastructure.Persistence
         {
         }
 
-        public DbSet<User> User => Set<User>();
+        public DbSet<User> Users => Set<User>();
     }
 }
