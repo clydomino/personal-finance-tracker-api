@@ -1,4 +1,5 @@
 ﻿using FinanceTracker.Domain;
+using FinanceTracker.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +16,7 @@ namespace FinanceTracker.Infrastructure
             services.AddDbContext<Persistence.FinanceTrackerDbContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("To Add Later")));
 
-            services.AddScoped<IUserRepository, IUserRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             
             return services;
         }
