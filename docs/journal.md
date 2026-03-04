@@ -19,3 +19,5 @@
 - Created User Entity and User Repository Interface - (**by Clyde**)
 
 - Created The Database/DB Context - (**by Clyde**)
+
+- Added EF packages, Created Database and first migrations - (**by Clyde**)
