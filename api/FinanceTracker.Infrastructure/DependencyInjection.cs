@@ -14,7 +14,7 @@ namespace FinanceTracker.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<Persistence.FinanceTrackerDbContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("To Add Later")));
+            options.UseSqlServer(configuration.GetConnectionString("Default")));
 
             services.AddScoped<IUserRepository, UserRepository>();
             
