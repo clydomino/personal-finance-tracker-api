@@ -21,3 +21,6 @@
 - Created The Database/DB Context - (**by Clyde**)
 
 - Added EF packages, Created Database and first migrations - (**by Clyde**)
+
+- Added UsersController with first endpoint (Create) - (**by Clyde**)
+
