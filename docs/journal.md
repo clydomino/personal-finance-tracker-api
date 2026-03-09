@@ -19,3 +19,5 @@
 - Created User Entity and User Repository Interface - (**by Clyde**)
 
 - Created The Database/DB Context - (**by Clyde**)
+
+- Added UsersController with first endpoint (Create) - (**by Clyde**)
