@@ -1,4 +1,7 @@
-﻿using FinanceTracker.Domain;
+﻿using FinanceTracker.Application.Common.Auth;
+using FinanceTracker.Application.Common.Interfaces;
+using FinanceTracker.Domain;
+using FinanceTracker.Infrastructure.Authentication;
 using FinanceTracker.Infrastructure.Persistence.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +20,9 @@ namespace FinanceTracker.Infrastructure
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+
+            services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
+            services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
             
             return services;
         }
