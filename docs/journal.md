@@ -24,3 +24,5 @@
 
 - Added UsersController with first endpoint (Create) - (**by Clyde**)
 
+- Added Login feature with JWT (Create) - (**by Clyde**)
+
