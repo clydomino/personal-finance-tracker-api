@@ -30,3 +30,5 @@
 
 - Added 'get user by id' feature - (**by Clyde**)
 
+- Improved existing user failure when creating new user - (**by Clyde**)
+
