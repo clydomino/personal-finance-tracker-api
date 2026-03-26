@@ -28,7 +28,7 @@ namespace FinanceTracker.Application.Users.CreateUser
 
             if (existingUser is not null)
             {
-                throw new Exception("User with this email already exists.");
+                return new CreateUserResult(false, "User already exists", null, request.Email, request.FirstName, request.LastName);
             }
 
             // Create domain entity
@@ -47,7 +47,7 @@ namespace FinanceTracker.Application.Users.CreateUser
             await _userRepository.AddAsync(user, cancellationToken);
 
             // Return result DTO
-            return new CreateUserResult(user.Id, user.Email, user.FirstName, user.LastName);
+            return new CreateUserResult(true, null, user.Id, user.Email, user.FirstName, user.LastName);
         }
     }
 }
