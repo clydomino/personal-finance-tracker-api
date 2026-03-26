@@ -28,3 +28,5 @@
 
 - Created project pipeline - (**by Clyde**)
 
+- Added 'get user by id' feature - (**by Clyde**)
+
