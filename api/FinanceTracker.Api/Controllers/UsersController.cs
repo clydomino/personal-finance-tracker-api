@@ -20,6 +20,11 @@ namespace FinanceTracker.Api.Controllers
         public async Task<IActionResult> Create(CreateUserCommand command)
         {
             var result = await _mediator.Send(command);
+
+            if (!result.success) { 
+                return Conflict(result);
+            }
+
             return Ok(result);
         }
 
