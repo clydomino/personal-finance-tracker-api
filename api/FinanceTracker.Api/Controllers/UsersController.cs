@@ -1,5 +1,7 @@
 ﻿using FinanceTracker.Application.Users.CreateUser;
+using FinanceTracker.Application.Users.GetUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinanceTracker.Api.Controllers
@@ -21,5 +23,20 @@ namespace FinanceTracker.Api.Controllers
             var result = await _mediator.Send(command);
             return Ok(result);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+
+            var result = await _mediator.Send(new GetUserQuery(id));
+
+            if (!result.Success)
+            {
+                return NotFound(result); 
+            }
+
+            return Ok(result);
+        }
+
     }
 }
