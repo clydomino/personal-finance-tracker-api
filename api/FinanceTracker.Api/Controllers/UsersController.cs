@@ -1,7 +1,6 @@
 ﻿using FinanceTracker.Application.Users.CreateUser;
 using FinanceTracker.Application.Users.GetUser;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinanceTracker.Api.Controllers
