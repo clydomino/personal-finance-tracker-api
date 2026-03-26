@@ -38,6 +38,7 @@ namespace FinanceTracker.Application.Users.CreateUser
                 Email = request.Email,
                 FirstName = request.FirstName,
                 LastName = request.LastName,
+                CreatedAt = DateTime.UtcNow,
             };
 
             //Hash password
