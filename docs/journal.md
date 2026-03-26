@@ -26,3 +26,5 @@
 
 - Added Login feature with JWT (Create) - (**by Clyde**)
 
+- Created project pipeline - (**by Clyde**)
+
